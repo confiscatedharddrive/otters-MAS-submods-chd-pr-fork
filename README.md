@@ -1,8 +1,8 @@
 <h1 align="center">🌻 otter's MAS smol submods! 🌻</h1>
 <h4 align="center">all the small submods i coded for monika after story.</h3>
 <p align="center">
-  <a href="https://github.com/my-otter-self/monika_selfharm/releases/latest">
-    <img alt="Latest release" src="https://img.shields.io/github/v/release/my-otter-self/monika_selfharm">
+  <a href="https://github.com/my-otter-self/otters-MAS-smol-submods/releases/latest">
+    <img alt="Latest release" src="https://img.shields.io/github/v/release/my-otter-self/otters-MAS-smol-submods">
   </a>
   <a href="https://mon.icu/discord">
     <img alt="Discord server" src="https://discordapp.com/api/guilds/970747033071804426/widget.png?style=shield">
