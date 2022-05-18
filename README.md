@@ -11,7 +11,11 @@
 
 ## 🌟 features (so far!)
   
+  
   * new compliments
+  * remasters
+  * big submods:
+    * period submod
 
 ## 🦦 my info
 
