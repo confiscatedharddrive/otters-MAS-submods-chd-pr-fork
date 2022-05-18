@@ -1,5 +1,5 @@
-<h1 align="center">🌻 otter's MAS smol submods! 🌻</h1>
-<h4 align="center">all the small submods i coded for monika after story.</h3>
+<h1 align="center">🌻 otter's MAS submods! 🌻</h1>
+<h4 align="center">all the submods i coded for monika after story.</h3>
 <p align="center">
   <a href="https://github.com/my-otter-self/otters-MAS-smol-submods/releases/latest">
     <img alt="Latest release" src="https://img.shields.io/github/v/release/my-otter-self/otters-MAS-smol-submods">
