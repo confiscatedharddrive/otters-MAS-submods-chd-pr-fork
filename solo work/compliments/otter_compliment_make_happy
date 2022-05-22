@@ -1,0 +1,15 @@
+#You make me really happy...
+init 5 python:
+    addEvent(
+        Event(
+            persistent.event_database,
+            eventlabel="otter_compliment_make_happy",
+            prompt="You make me really happy...",
+            unlocked=True
+        ),
+        code="CMP"
+    )
+
+label otter_compliment_make_happy:
+    m ""
+    return
