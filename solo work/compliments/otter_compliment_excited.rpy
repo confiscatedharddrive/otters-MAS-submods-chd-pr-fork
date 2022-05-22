@@ -3,7 +3,7 @@ init 5 python:
     addEvent(
         Event(
             persistent.event_database,
-            eventlabel="otter_compliment_excited",
+            eventlabel="otter_compliment_excited_see",
             prompt="I get so excited when I see you.",
             unlocked=True
         ),
