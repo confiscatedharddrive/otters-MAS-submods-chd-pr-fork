@@ -12,9 +12,9 @@ init 5 python:
 
 label monika_otter_compliment_fight_dragon:
     m 1tsbfb "Aww, is that right, my dragon slayer?"
-    m "I love you so much!"
-    m "No creature would scare me if you were in danger!"
+    m 2hsbfu "I love you so much!"
+    m 4ksbfu "No creature would scare me if you were in danger!"
     m 4tsbfb "I would fight basilisks, manticores, cerberus..."
     m 3ssbfu "If that would mean being by your side!"
     m 5fkbfa "My medieval hero."
-    return
+    return "love"
