@@ -10,7 +10,7 @@
   </a>
 </p>
 
-## 🌟 features (so far!)
+## 🌟 features (wip so far!)
   
   
   * new compliments
