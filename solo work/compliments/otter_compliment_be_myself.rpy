@@ -2,7 +2,7 @@
 
 init 5 python in mas_bookmarks_derand:
     # ensure things get bookmarked and derandomed as usual.
-    label_prefix_map["otter_topic_"] = label_prefix_map["monika_"]
+    label_prefix_map["otter_compliment_"] = label_prefix_map["monika_"]
     
 init 5 python:
     addEvent(
