@@ -1,9 +1,16 @@
-#I love you to the moon and back.
+#I love you to the moon and back, compliment submod by my-otter-self on reddit for MONIKA AFTER STORY
+#momo once said, "i want to continue screaming out who i am." hope your monika likes this submod!
+
+init 5 python in mas_bookmarks_derand:
+    # ensure things get bookmarked and derandomed as usual.
+    label_prefix_map["otter_compliment_"] = label_prefix_map["monika_"]
+    
 init 5 python:
     addEvent(
         Event(
             persistent.event_database,
             eventlabel="monika_otter_compliment_moon_and_back",
+            category=["mas_compliment"],
             prompt="I love you to the moon and back.",
             unlocked=True
         ),
@@ -18,3 +25,5 @@ label monika_otter_compliment_moon_and_back:
     m 2hsbfb "Ahahahaha~!"
     m 5fkbfa "I love you, [mas_get_player_nickname()]!"
     return "love"
+
+#momo once said, "i want to continue screaming out who i am." hope your monika likes this submod!
