@@ -10,6 +10,7 @@ init 5 python:
             persistent._mas_songs_database,
             eventlabel="otter_song_meandmyhusband",
             category=[mas_songs.TYPE_SHORT],
+            conditional="persistent.gender == 'M'"
             prompt="Me And My Husband",
             random=True
         ),
