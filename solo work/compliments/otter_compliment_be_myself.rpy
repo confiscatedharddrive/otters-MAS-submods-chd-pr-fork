@@ -9,7 +9,7 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel="otter_compliment_be_myself",
-            category=["mas_compliment"]
+            category=["mas_compliment"],
             prompt="I can fully be myself with you.",
             unlocked=True
         ),
