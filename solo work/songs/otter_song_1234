@@ -40,7 +40,7 @@ label otter_song_1234:
     m "{i}~You make it easy,~{/i}"
     m "{i}~As easy as 1, 2, 3, 4.~{/i}"
     m "{i}~There's only 1 way, {/i}{w=0.3}{nw}"
-    extend "{i}2 say those 3 words {/i}{w=0.3}{nw}"
+    extend "{i}2 say those 3 words; {/i}{w=0.3}{nw}"
     extend "{i}That's what I'll do.~{/i}"
     m "{i}~I love you ~{/i}"
     m "..."
