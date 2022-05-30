@@ -1,5 +1,4 @@
 #I love you to the moon and back, compliment submod by my-otter-self on reddit for MONIKA AFTER STORY
-#momo once said, "i want to continue screaming out who i am." hope your monika likes this submod!
 
 init 5 python in mas_bookmarks_derand:
     # ensure things get bookmarked and derandomed as usual.
