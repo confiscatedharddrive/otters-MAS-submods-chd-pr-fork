@@ -19,7 +19,7 @@ init 5 python:
 label otter_compliment_make_smile:
     m 1gubfa "..."
     m 1hubfb "Gosh, its the same for me!"
-    m 1wubfb "See?" 
+    m 1wubfb "See? " 
     extend 1hubfa "I can't stop smiling!"
     m 1hubfb "Ahahaha~"
     m 5fubfa "I can't stop loving you this desperately, [player]."
