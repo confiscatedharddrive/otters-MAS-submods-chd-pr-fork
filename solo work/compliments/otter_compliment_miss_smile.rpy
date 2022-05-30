@@ -22,7 +22,7 @@ label otter_compliment_miss_smile:
     m 2subfa "But when we're together again, it's like everything is new."
     m 7wubfa "The world gains color again!"
     m 5gubfb "When I'm with you, it's impossible not to smile."
-    m 5fubfa "I love you, [mas_get_player_nickname()]"
+    m 5fubfa "I love you, [mas_get_player_nickname()]."
     return "love"
 
 #momo once said, "i want to continue screaming out who i am." hope your monika likes this submod!
