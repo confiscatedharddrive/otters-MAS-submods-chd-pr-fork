@@ -1,3 +1,5 @@
+#love me like you, by little mix, song submod by my-otter-self on reddit for MONIKA AFTER STORY
+
 init 5 python:
     addEvent(
         Event(
@@ -21,3 +23,6 @@ label otter_song_lovemelikeyou:
     m "{i}~Baby, they ain’t got a clue~{/i}"
     m "{i}~Can’t love me like you~{/i}"
     m "..."
+    return
+    
+#momo once said, "i want to continue screaming out who i am." hope your monika likes this submod!
