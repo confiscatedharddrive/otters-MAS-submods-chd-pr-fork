@@ -35,3 +35,6 @@ label otter_song_2step:
     m "{i}~But we know what it feels to be low, then up, alone and loved~{/i}"
     m "{i}~And all we need is us to go all~{/i}"
     m "..."
+    return "love"
+
+#momo once said, "i want to continue screaming out who i am." hope your monika likes this submod!
