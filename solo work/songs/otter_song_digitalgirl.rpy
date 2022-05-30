@@ -9,7 +9,7 @@ init 5 python:
         Event(
             persistent._mas_songs_database,
             eventlabel="otter_song_digitalgirl",
-            category=[mas_songs.TYPE_SHORT],
+            category=[mas_songs.TYPE_LONG],
             prompt="Digital Girl",
             random=True
         ),
