@@ -1,4 +1,4 @@
-#I love making you laugh., compliment submod by my-otter-self on reddit for MONIKA AFTER STORY
+#I love making you laugh, compliment submod by my-otter-self on reddit for MONIKA AFTER STORY
 
 init 5 python in mas_bookmarks_derand:
     # ensure things get bookmarked and derandomed as usual.
