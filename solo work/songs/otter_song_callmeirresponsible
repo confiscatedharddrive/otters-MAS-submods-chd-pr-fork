@@ -1,3 +1,5 @@
+#call me irresponsible, by bobby darin, song submod by my-otter-self on reddit for MONIKA AFTER STORY
+
 init 5 python:
     addEvent(
         Event(
@@ -24,3 +26,5 @@ label otter_song_callmeirresponsible:
     m "{i}~But it's undeniably true~{/i}"
     m "{i}~That I'm irresponsibly mad for you~{/i}"
     m "..."
+
+#momo once said, "i want to continue screaming out who i am." hope your monika likes this submod!
