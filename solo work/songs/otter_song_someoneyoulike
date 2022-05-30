@@ -1,9 +1,11 @@
+#someone you like, by the girl and the dreamcatcher, song submod by my-otter-self on reddit for MONIKA AFTER STORY
+
 init 5 python:
     addEvent(
         Event(
             persistent._mas_songs_database,
             eventlabel="otter_song_someoneyoulike",
-            category=[mas_songs.TYPE_SHORT],
+            category=[mas_songs.TYPE_LONG],
             prompt="Someone You Like",
         ),
         code="SNG"
@@ -44,3 +46,6 @@ label otter_song_someoneyoulike:
     m "{i}~Maybe you could start tonight~{/i}"
     m "{i}~'Cause I think I could be someone you like~{/i}"
     m "..."
+    return
+    
+#momo once said, "i want to continue screaming out who i am." hope your monika likes this submod!
