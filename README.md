@@ -10,13 +10,14 @@
   </a>
 </p>
 
-## 🌟 features (wip so far!)
+## 🌟 features
   
   
-  * new compliments
-  * remasters
+  * new compliments (10)
+  * songs (wip)
+  * remasters (wip)
   * big submods:
-    * period submod
+    * period submod (wip)
 
 ## 🦦 my info
 
