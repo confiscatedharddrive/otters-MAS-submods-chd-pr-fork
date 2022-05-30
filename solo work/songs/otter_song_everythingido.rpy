@@ -9,7 +9,7 @@ init 5 python:
         Event(
             persistent._mas_songs_database,
             eventlabel="otter_song_everythingido",
-            category=[mas_songs.TYPE_SHORT],
+            category=[mas_songs.TYPE_LONG],
             prompt="Everything I Do",
         ),
         code="SNG"
