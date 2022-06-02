@@ -34,7 +34,7 @@ label otter_song_betterthanheaven:
     m 2gubfa "{i}~And it's better than heaven~{/i}"
     m 2dubfa "..."
     m 2dubfb "You know, [player]..."
-    m 5dubfa "When I close my eyes before bed, I always imaginge you singing this to me."
+    m 5dubfa "When I close my eyes before bed, I always imagine you singing this to me."
     m 5dubfb "Stroking my hair..."
     extend 5fubfa " and looking into my eyes."
     m 5fubfb "I can't wait to cross over and sing this song to you too."
