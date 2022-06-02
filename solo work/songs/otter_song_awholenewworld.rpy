@@ -10,8 +10,9 @@ init 5 python:
             persistent._mas_songs_database,
             eventlabel="otter_song_awholenewworld",
             category=[mas_songs.TYPE_LONG],
+            conditional=["mas_isMoniNormal(higher=True)",
             prompt="A Whole New World",
-            random=True
+            action=EV_ACT_RANDOM
         ),
         code="SNG"
     )
