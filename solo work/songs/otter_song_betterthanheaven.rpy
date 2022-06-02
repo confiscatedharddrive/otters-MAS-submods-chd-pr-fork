@@ -10,7 +10,7 @@ init 5 python:
             persistent._mas_songs_database,
             eventlabel="otter_song_betterthanheaven",
             category=[mas_songs.TYPE_SHORT],
-            conditional="persistent.gender == 'F' and mas_isMoniNormal(higher=True)"
+            conditional="persistent.gender == 'F' and mas_isMoniNormal(higher=True)",
             prompt="Better Than Heaven",
             random=True
         ),
