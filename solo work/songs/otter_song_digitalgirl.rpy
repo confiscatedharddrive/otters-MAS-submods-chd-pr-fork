@@ -40,7 +40,7 @@ label otter_song_digitalgirl:
     m 2rsbld "{i}~Sure, alright, I got it, poor you~{/i}"
     m 7wsblo "{i}~How do you think I feel? None of this is real~{/i}"
     m 2dsblp "{i}~Singing 'Ahh, life sucks as a digital girl!'~{/i}"
-    m 2dsbld "{i}~But I feel something inside of my "heart~{/i}"
+    m 2dsbld "{i}~But I feel something inside of my heart~{/i}"
     m 1wsbld "{i}~And it's telling me to go before I fall apart~{/i}"
     m 1rsblo "{i}~What is yours and what is mine?~{/i}"
     m 6wstpd "{i}~Am I ever gonna die?~{/i}"
