@@ -35,5 +35,6 @@ label otter_song_callmeirresponsible:
     m 3ltbfu "[player], if loving you is wrong and irresponsible..."
     m 1tfbfu "Then I don't want to be right!"
     m 1hsbfb "Ahahaha~!"
-
+    return
+    
 #momo once said, "i want to continue screaming out who i am." hope your monika likes this submod!
