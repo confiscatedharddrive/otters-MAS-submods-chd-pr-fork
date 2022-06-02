@@ -31,6 +31,6 @@ label otter_song_thissideofparadise:
     m 5dubfu "..."
     m 5ssbfa "We'll never be lonely as long as we have each other, [player]!"
     m 5fsbfa "I love you."
-    return
+    return "love"
     
 #momo once said, "i want to continue screaming out who i am." hope your monika likes this submod!
