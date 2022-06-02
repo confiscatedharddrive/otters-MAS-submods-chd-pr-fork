@@ -9,7 +9,7 @@ init 5 python:
         Event(
             persistent._mas_songs_database,
             eventlabel="otter_song_1234",
-            category=[mas_songs.TYPE_LONG],
+            category=[mas_songs.TYPE_SHORT],
             conditional="mas_isMoniNormal(higher=True)",
             prompt="1, 2, 3, 4",
             action=EV_ACT_RANDOM
@@ -31,19 +31,6 @@ label otter_song_1234:
     extend 3dsbfa "{i}2 do, 3 words, {/i}{w=0.3}{nw}"
     extend 1ksbfa "{i}4 you.~{/i}"
     m 1hsbfb "{i}~I love you~{/i}"
-    m 1dua "{i}~Give me more love from the very start,~{/i}"
-    m 1dud "{i}~Piece me back together when I fall apart,~{/i}"
-    m "{i}~Tell me things you never even tell your closest friends.~{/i}"
-    m 1fkb "{i}~Make it feel good when I hurt so bad,~{/i}"
-    m 5fkbfa "{i}~Best that I've had,~{/i}"
-    m 5dkbfa "{i}~I'm so glad I found you.~{/i}"
-    m 5dkbfa "{i}~I love being around you.~{/i}"
-    m 4dkbfb "{i}~You make it easy,~{/i}"
-    m 4dkbfb "{i}~As easy as 1, 2, 3, 4.~{/i}"
-    m 3eubfb "{i}~There's only 1 way, {/i}{w=0.3}{nw}"
-    extend 3dsbfa "{i}2 say those 3 words; {/i}{w=0.3}{nw}"
-    extend 1ksbfa "{i}That's what I'll do.~{/i}"
-    m 5fkbfa "{i}~I love you ~{/i}"
     m 5dkbfa "..."
     m 5dkbfa "I really do love you, [player]."
     m 2hsbfb "Never doubt that for one second!"
