@@ -10,7 +10,7 @@ init 5 python:
             persistent._mas_songs_database,
             eventlabel="otter_song_1234",
             category=[mas_songs.TYPE_LONG],
-            conditional=mas_isMoniNormal(higher=True)",
+            conditional="mas_isMoniNormal(higher=True)",
             prompt="1, 2, 3, 4",
             random=True
         ),
