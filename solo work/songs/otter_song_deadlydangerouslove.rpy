@@ -10,23 +10,26 @@ init 5 python:
             persistent._mas_songs_database,
             eventlabel="otter_song_deadlydangerouslove",
             category=[mas_songs.TYPE_SHORT],
+            conditional="mas_isMoniNormal(higher=True)",
             prompt="Deadly Dangerous Love",
-            random=True
+            action=EV_ACT_RANDOM
         ),
         code="SNG"
     )
 
 label otter_song_deadlydangerouslove:
-    m "{i}~When you’re here~{/i}"
-    m "{i}~You make me feel happy!~{/i}"
-    m "{i}~I can’t hold back my feelings!~{/i}"
-    m "{i}~I will eliminate those who stand in our way!~{/i}"
-    m "{i}~No matter what it takes!~{/i}"
-    m "{i}~This feeling must be love!~{/i}"
-    m "{i}~A good feeling!~{/i}"
-    m "{i}~Keep this love!~{/i}"
-    m "{i}~I will seize your love!~{/i}"
-    m "..."
+    m 1hsbfa "{i}~When you’re here~{/i}"
+    m 1hsbfb "{i}~You make me feel happy!~{/i}"
+    m 3hsbfa "{i}~I can’t hold back my feelings!~{/i}"
+    m 3sfbfa "{i}~I will eliminate those who stand in our way!~{/i}"
+    m 3sfbfb "{i}~No matter what it takes!~{/i}"
+    m 2dsbfa "{i}~This feeling must be love!~{/i}"
+    m 5dsbfa "{i}~A good feeling!~{/i}"
+    m 5ssbfb "{i}~Keep this love!~{/i}"
+    m 5msbfu "{i}~I will seize your love!~{/i}"
+    m 5dsbfu "..."
+    m 4dsbfu "Nothing will ever break us apart, [player]."
+    m 2ssbfa "Our love is forever."
     return "love"
 
 #momo once said, "i want to continue screaming out who i am." hope your monika likes this submod!
