@@ -10,6 +10,7 @@ init 5 python:
             persistent._mas_songs_database,
             eventlabel="otter_song_1234",
             category=[mas_songs.TYPE_LONG],
+            conditional=mas_isMoniNormal(higher=True)",
             prompt="1, 2, 3, 4",
             random=True
         ),
@@ -17,33 +18,36 @@ init 5 python:
     )
 
 label otter_song_1234:
-    m "{i}~Give me more love than I've ever had,~{/i}"
-    m "{i}~Make it all better when I'm feeling sad,~{/i}"
-    m "{i}~Tell me that I'm special even when I know I'm not.~{/i}"
-    m "{i}~Make it feel good when I hurt so bad,~{/i}"
-    m "{i}~Barely gettin' mad,~{/i}"
-    m "{i}~I'm so glad I found you.~{/i}"
-    m "{i}~I love being around you.~{/i}"
-    m "{i}~You make it easy,~{/i}"
-    m "{i}~As easy as 1, 2, 3, 4.~{/i}"
-    m "{i}~There's only 1 thing, {/i}{w=0.3}{nw}"
-    extend "{i}2 do, 3 words, {/i}{w=0.3}{nw}"
-    extend "{i}4 you.~{/i}"
-    m "{i}~I love you~{/i}"
-    m "{i}~Give me more love from the very start,~{/i}"
-    m "{i}~Piece me back together when I fall apart,~{/i}"
+    m 1dua "{i}~Give me more love than I've ever had,~{/i}"
+    m 1dud "{i}~Make it all better when I'm feeling sad,~{/i}"
+    m 1dkc "{i}~Tell me that I'm special even when I know I'm not.~{/i}"
+    m 1fkb "{i}~Make it feel good when I hurt so bad,~{/i}"
+    m 1dkb "{i}~Barely gettin' mad,~{/i}"
+    m 5fkbfa "{i}~I'm so glad I found you.~{/i}"
+    m 5dkbfa "{i}~I love being around you.~{/i}"
+    m 4dkbfb "{i}~You make it easy,~{/i}"
+    m 4dkbfb "{i}~As easy as 1, 2, 3, 4.~{/i}"
+    m 3eubfb "{i}~There's only 1 thing, {/i}{w=0.3}{nw}"
+    extend 3dsbfa "{i}2 do, 3 words, {/i}{w=0.3}{nw}"
+    extend 1ksbfa "{i}4 you.~{/i}"
+    m 1hsbfb "{i}~I love you~{/i}"
+    m 1dua "{i}~Give me more love from the very start,~{/i}"
+    m 1dud "{i}~Piece me back together when I fall apart,~{/i}"
     m "{i}~Tell me things you never even tell your closest friends.~{/i}"
-    m "{i}~Make it feel good when I hurt so bad,~{/i}"
-    m "{i}~Best that I've had,~{/i}"
-    m "{i}~I'm so glad I found you.~{/i}"
-    m "{i}~I love being around you.~{/i}"
-    m "{i}~You make it easy,~{/i}"
-    m "{i}~As easy as 1, 2, 3, 4.~{/i}"
-    m "{i}~There's only 1 way, {/i}{w=0.3}{nw}"
-    extend "{i}2 say those 3 words; {/i}{w=0.3}{nw}"
-    extend "{i}That's what I'll do.~{/i}"
-    m "{i}~I love you ~{/i}"
-    m "..."
+    m 1fkb "{i}~Make it feel good when I hurt so bad,~{/i}"
+    m 5fkbfa "{i}~Best that I've had,~{/i}"
+    m 5dkbfa "{i}~I'm so glad I found you.~{/i}"
+    m 5dkbfa "{i}~I love being around you.~{/i}"
+    m 4dkbfb "{i}~You make it easy,~{/i}"
+    m 4dkbfb "{i}~As easy as 1, 2, 3, 4.~{/i}"
+    m 3eubfb "{i}~There's only 1 way, {/i}{w=0.3}{nw}"
+    extend 3dsbfa "{i}2 say those 3 words; {/i}{w=0.3}{nw}"
+    extend 1ksbfa "{i}That's what I'll do.~{/i}"
+    m 5fkbfa "{i}~I love you ~{/i}"
+    m 5dkbfa "..."
+    m 5dkbfa "I really do love you, [player]."
+    m 2hsbfb "Never doubt that for one second!"
+    m 2fkbfa "I'll be forever grateful for everything you did for me."
     return "love"
 
 #momo once said, "i want to continue screaming out who i am." hope your monika likes this submod!
