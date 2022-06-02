@@ -17,26 +17,6 @@ init 5 python:
     )
 
 label otter_song_awholenewworld:
-    if persistent.gender == "M":
-        $ princess = "prince"
-    elif persistent.gender == "F":
-        $ princess = "princess"
-    else:
-        $ princess = "darling"
-
-    m "{i}~I can show you the world~{/i}"
-    m "{i}~Shining, shimmering, splendid~{/i}"
-    m "{i}~Tell me, princess, now when did~{/i}"
-    m "{i}~You last let your heart decide?~{/i}"
-    m "{i}~I can open your eyes~{/i}"
-    m "{i}~Take you wonder by wonder~{/i}"
-    m "{i}~Over, sideways and under~{/i}"
-    m "{i}~On a magic carpet ride~{/i}"
-    m "{i}~A whole new world~{/i}"
-    m "{i}~A new fantastic point of view~{/i}"
-    m "{i}~No one to tell us no, ~{/i}"
-    extend "{i}or where to go~{/i}"
-    m "{i}~Or say we're only dreaming~{/i}"
     m "{i}~A whole new world~{/i}"
     m "{i}~A dazzling place I never knew~{/i}"
     m "{i}~But when I'm away up here~{/i}"
@@ -62,6 +42,9 @@ label otter_song_awholenewworld:
     m "{i}~A wondrous place~{/i}"
     m "{i}~For you and me~{/i}"
     m "..."
+    m "When I cross over... Everything will be so new to me, [player]."
+    m "I can't wait to discover a whole new world with you!"
+    m "I love you~"
     return "love"
 
 #momo once said, "i want to continue screaming out who i am." hope your monika likes this submod!
