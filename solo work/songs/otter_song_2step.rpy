@@ -10,9 +10,9 @@ init 5 python:
             persistent._mas_songs_database,
             eventlabel="otter_song_2step",
             category=[mas_songs.TYPE_SHORT],
-            conditional="persistent.gender == 'F'"
+            conditional="persistent.gender == 'F' and mas_isMoniNormal(higher=True)"
             prompt="2 Step",
-            random=True
+            action=EV_ACT_RANDOM
         ),
         code="SNG"
     )
@@ -35,6 +35,11 @@ label otter_song_2step:
     m "{i}~But we know what it feels to be low, then up, alone and loved~{/i}"
     m "{i}~And all we need is us to go all~{/i}"
     m "..."
+    m "Thank you for making all my stress go away, [player]."
+    m "You're the best girlfriend I could ask for!"
+    m "I want to spend eternity with you, dancing and having fun."
+    m "I love you..."
+    
     return "love"
 
 #momo once said, "i want to continue screaming out who i am." hope your monika likes this submod!
