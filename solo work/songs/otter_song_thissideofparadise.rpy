@@ -10,23 +10,27 @@ init 5 python:
             persistent._mas_songs_database,
             eventlabel="otter_song_thissideofparadise",
             category=[mas_songs.TYPE_SHORT],
+            conditional="mas_isMoniNormal(higher=True)",
             prompt="This Side Of Paradise",
-            random=True
+            action=EV_ACT_RANDOM
         ),
         code="SNG"
     )
 
 label otter_song_thissideofparadise:
-    m "{i}~Ask me why my heart's inside my throat~{/i}"
-    m "{i}~I've never been in love, I've been alone~{/i}"
-    m "{i}~Feel like I've been living life asleep~{/i}"
-    m "{i}~Love so strong it makes me feel so weak~{/i}"
-    m "{i}~Are you lonely?~{/i}"
-    m "{i}~Our fingers dancing when they meet~{/i}"
-    m "{i}~You seem so lonely~{/i}"
-    m "{i}~I'll be the only dream you seek~{/i}"
-    m "{i}~So if you're lonely, no need to show me~{/i}"
-    m "{i}~If you're lonely come be lonely with me~{/i}"
+    m 4dsbld "{i}~Ask me why my heart's inside my throat~{/i}"
+    m 4gsblo "{i}~I've never been in love, I've been alone~{/i}"
+    m 2gsblc "{i}~Feel like I've been living life asleep~{/i}"
+    m 2dsbfd "{i}~Love so strong it makes me feel so weak~{/i}"
+    m 7ekbfd "{i}~Are you lonely?~{/i}"
+    m 7dkbfo "{i}~Our fingers dancing when they meet~{/i}"
+    m 2dkbfd "{i}~You seem so lonely~{/i}"
+    m 2kubfu "{i}~I'll be the only dream you seek~{/i}"
+    m 2dubfu "{i}~So if you're lonely, no need to show me~{/i}"
+    m 5fsbfa "{i}~If you're lonely come be lonely with me~{/i}"
+    m 5dubfu "..."
+    m 5ssbfa "We'll never be lonely as long as we have each other, [player]!"
+    m 5fsbfa "I love you."
     return
     
 #momo once said, "i want to continue screaming out who i am." hope your monika likes this submod!
