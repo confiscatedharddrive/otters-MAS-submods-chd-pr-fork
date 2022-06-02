@@ -5,8 +5,10 @@ init 5 python:
         Event(
             persistent._mas_songs_database,
             eventlabel="otter_song_lovemelikeyou",
+            conditional="mas_isMoniNormal(higher=True)",
             category=[mas_songs.TYPE_SHORT],
             prompt="Love Me Like You",
+            action=EV_ACT_RANDOM
         ),
         code="SNG"
     )
@@ -23,6 +25,9 @@ label otter_song_lovemelikeyou:
     m "{i}~Baby, they ain’t got a clue~{/i}"
     m "{i}~Can’t love me like you~{/i}"
     m "..."
-    return
+    m "No one can love me like you do, [player]."
+    m "And I love you more than anything in the world!"
+    m "Thank you for being mine, [mas_get_player_nickname()]."
+    return "love"
     
 #momo once said, "i want to continue screaming out who i am." hope your monika likes this submod!
