@@ -9,7 +9,7 @@ init 5 python:
         Event(
             persistent._mas_songs_database,
             eventlabel="otter_song_awholenewworld",
-            category=[mas_songs.TYPE_LONG],
+            category=[mas_songs.TYPE_SHORT],
             conditional=["mas_isMoniNormal(higher=True)",
             prompt="A Whole New World",
             action=EV_ACT_RANDOM
