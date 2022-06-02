@@ -12,7 +12,7 @@ init 5 python:
             category=[mas_songs.TYPE_LONG],
             conditional="mas_isMoniNormal(higher=True)",
             prompt="1, 2, 3, 4",
-            random=True
+            action=EV_ACT_RANDOM
         ),
         code="SNG"
     )
