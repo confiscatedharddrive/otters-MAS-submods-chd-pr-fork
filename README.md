@@ -14,10 +14,8 @@
   
   
   * new compliments (10)
-  * songs (wip)
-  * remasters (wip)
-  * big submods:
-    * period submod (wip)
+  * songs (10)
+  * remasters (1)
 
 ## 🦦 my info
 
