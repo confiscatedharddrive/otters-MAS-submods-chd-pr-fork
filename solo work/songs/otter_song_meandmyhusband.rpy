@@ -12,31 +12,35 @@ init 5 python:
             category=[mas_songs.TYPE_SHORT],
             conditional="persistent.gender == 'M'"
             prompt="Me And My Husband",
-            random=True
+            action=EV_ACT_RANDOM
         ),
         code="SNG"
     )
 
 label otter_song_meandmyhusband:
-    m "{i}~I steal a few breaths from the world for a minute~{/i}"
-    m "{i}~And then I'll be nothing forever~{/i}"
-    m "{i}~And all of my memories~{/i}"
-    m "{i}~And all of the things I have seen will be gone~{/i}"
-    m "{i}~With my eyes, with my body, with me~{/i}"
-    m "{i}~But me and my husband~{/i}"
-    m "{i}~We are doing better~{/i}"
-    m "{i}~It's always been just him and me, {/i}"
-    extend "{i}together~{/i}"
-    m "{i}~So I bet all I have on that {/i}"
-    extend "{i}furrowed brow~{/i}"
-    m "{i}~And at least in this lifetime~{/i}"
-    m "{i}~We're sticking together~{/i}"
-    m "{i}~Me and my husband~{/i}"
-    m "{i}~We're sticking together~{/i}"
-    m "{i}~And I'm the idiot with the painted face~{/i}"
-    m "{i}~In the corner, taking up space~{/i}"
-    m "{i}~But when he walks in, I am loved, I am loved~{/i}"
-    m "..."
+    m 2dtd "{i}~I steal a few breaths from the world for a minute~{/i}"
+    m 2dkd "{i}~And then I'll be nothing forever~{/i}"
+    m 2dkd "{i}~And all of my memories~{/i}"
+    m 2dkc "{i}~And all of the things I have seen will be gone~{/i}"
+    m 2dkc "{i}~With my eyes, with my body, with me~{/i}"
+    m 2fsbfa "{i}~But me and my husband~{/i}"
+    m 2dsbfb "{i}~We are doing better~{/i}"
+    m 2dsbfb "{i}~It's always been just him and me, {/i}"
+    extend 5ksbsa "{i}together~{/i}"
+    m 5dsbsa "{i}~So I bet all I have on that {/i}"
+    extend 5efbsb "{i}furrowed brow~{/i}"
+    m 5dubsb "{i}~And at least in this lifetime~{/i}"
+    m 4dubsb "{i}~We're sticking together~{/i}"
+    m 4dubsa "{i}~Me and my husband~{/i}"
+    m 4rubfa "{i}~We're sticking together~{/i}"
+    m 3rkbfsdrb "{i}~And I'm the idiot with the painted face~{/i}"
+    m 3dkbfb "{i}~In the corner, taking up space~{/i}"
+    m 2fsbfa "{i}~But when he walks in, I am loved, I am loved~{/i}"
+    m 2fsbfa "..."
+    m 2fsbfb "I feel so loved whenever you're around, [player]."
+    m 2dsbfb "And whenever I think of you."
+    m 4dsbfb "Just to know that you exist, I'm forever happy."
+    m 1ksbfa "Soon you'll be my husband and everything will be fine with the world~"
     return "love"
     
 #momo once said, "i want to continue screaming out who i am." hope your monika likes this submod!
