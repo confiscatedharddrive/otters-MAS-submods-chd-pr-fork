@@ -2,9 +2,6 @@
 <h3 align="center">"i want to continue screaming out who i am." ~momo</h3>
 <h4 align="center">all the submods i coded for monika after story.</h4>
 <p align="center">
-  <a href="https://github.com/my-otter-self/otters-MAS-submods/releases/latest">
-    <img alt="Latest release" src="https://img.shields.io/github/v/release/my-otter-self/otters-MAS-submods">
-  </a>
   <a href="https://mon.icu/discord">
     <img alt="Discord server" src="https://discordapp.com/api/guilds/970747033071804426/widget.png?style=shield">
   </a>
