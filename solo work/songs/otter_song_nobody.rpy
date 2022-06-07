@@ -11,26 +11,27 @@ init 5 python:
             eventlabel="otter_song_nobody",
             category=[mas_songs.TYPE_SHORT],
             prompt="Nobody",
-            random=True
+            conditional="mas_isMoniNormal(higher=True)",
+            action=EV_ACT_RANDOM
         ),
         code="SNG"
     )
 
 label otter_song_nobody:
-    m "{i}~And I don't want your pity~{/i}"
-    m "{i}~I just want somebody near me~{/i}"
-    m "{i}~Guess I'm a coward~{/i}"
-    m "{i}~I just want to feel alright~{/i}"
-    m "{i}~And I know no one will save me~{/i}"
-    m "{i}~I just need someone to kiss~{/i}"
-    m "{i}~Give me one good honest kiss~{/i}"
-    m "{i}~And I'll be alright~{/i}"
-    m "..."
-    m "Once I thought no one would save me, [player]."
-    m "But oh, was I wrong."
-    m "You came and rescued me, to make me yours forever."
-    m "You gave me the kiss, the gift of love, and I'll be forever grateful."
-    m "I love you..."
-    return
+    m 1dud "{i}~And I don't want your pity~{/i}"
+    m 1duc "{i}~I just want somebody near me~{/i}"
+    m 1duo "{i}~Guess I'm a coward~{/i}"
+    m 1mud "{i}~I just want to feel alright~{/i}"
+    m 1dud "{i}~And I know no one will save me~{/i}"
+    m 1kua "{i}~I just need someone to kiss~{/i}"
+    m 1tubsa "{i}~Give me one good honest kiss~{/i}"
+    m 1dubsa "{i}~And I'll be alright~{/i}"
+    m 1dubsa "..."
+    m 1rud "Once I thought no one would save me, [player]."
+    m 2ruu "But oh, was I wrong."
+    m 2fubsb "You came and rescued me, to make me yours forever."
+    m 2dubsb "You gave me the kiss, the gift of love, and I'll be forever grateful."
+    m 2tkbsa "I love you..."
+    return "love"
     
 #momo once said, "i want to continue screaming out who i am." hope your monika likes this submod!
