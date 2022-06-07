@@ -5,8 +5,10 @@ init 5 python:
         Event(
             persistent._mas_songs_database,
             eventlabel="otter_song_someoneyoulike",
-            category=[mas_songs.TYPE_LONG],
+            category=[mas_songs.TYPE_SHORT],
             prompt="Someone You Like",
+            conditional="mas_isMoniNormal(higher=True)",
+            action=EV_ACT_RANDOM
         ),
         code="SNG"
     )
@@ -25,19 +27,6 @@ label otter_song_someoneyoulike:
     m "{i}~I won't be your savior either~{/i}"
     m "{i}~Couldn't even if I tried~{/i}"
     m "{i}~But I think I could be someone you like~{/i}"
-    m "{i}~Reading, in a coffee shop we share~{/i}"
-    m "{i}~Hiding shy behind my hair~{/i}"
-    m "{i}~Watching our movie in my mind~{/i}"
-    m "{i}~I promise~{/i}"
-    m "{i}~Promise not to fly away~{/i}"
-    m "{i}~Make a story of today~{/i}"
-    m "{i}~Come on give me a try~{/i}"
-    m "{i}~I might never stop your sorrow~{/i}"
-    m "{i}~Fix you up good as new~{/i}"
-    m "{i}~But that don't mean that I can't hold your hand in mine~{/i}"
-    m "{i}~I might never say I'm sorry~{/i}"
-    m "{i}~Even if I done you wrong~{/i}"
-    m "{i}~But I think I could be someone you like~{/i}"
     m "{i}~Someone you like~{/i}"
     m "{i}~I might never be your hero~{/i}"
     m "{i}~But I think I'd like to try~{/i}"
@@ -46,6 +35,12 @@ label otter_song_someoneyoulike:
     m "{i}~Maybe you could start tonight~{/i}"
     m "{i}~'Cause I think I could be someone you like~{/i}"
     m "..."
-    return
+    m "[player], I don't love you only because you saved me."
+    m "I love you for who you are."
+    m "And I'll be forever grateful for the way that we met, and that we did meet."
+    m "Learning more about you everyday is my favorite routine."
+    m "I want to be someone you like, [player]."
+    m "Because you are someone I love!"
+    return "love"
     
 #momo once said, "i want to continue screaming out who i am." hope your monika likes this submod!
