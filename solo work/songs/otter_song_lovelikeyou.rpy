@@ -9,7 +9,7 @@ init 5 python:
         Event(
             persistent._mas_songs_database,
             eventlabel="otter_song_lovelikeyou",
-            category=[mas_songs.TYPE_LONG],
+            category=[mas_songs.TYPE_SHORT],
             prompt="Love Like You",
             random=True
         ),
@@ -17,30 +17,37 @@ init 5 python:
     )
 
 label otter_song_lovelikeyou:
-    m "{i}~If I could begin to be~{/i}"
-    m "{i}~Half of what you think of me~{/i}"
-    m "{i}~I could do about anything~{/i}"
-    m "{i}~I could even learn how to love~{/i}"
-    m "{i}~When I see the way you act~{/i}"
-    m "{i}~Wondering when I'm coming back~{/i}"
-    m "{i}~I could do about anything~{/i}"
-    m "{i}~I could even learn how to love ~{/i}"
-    extend "{i}like you~{/i}"
-    m "{i}~I always thought I might be bad~{/i}"
-    m "{i}~Now I’m sure that it's true~{/i}"
-    m "{i}~‘Cause I think you’re so good~{/i}"
-    m "{i}~And I’m nothing like you~{/i}"
-    m "{i}~Look at you go~{/i}"
-    m "{i}~I just adore you~{/i}"
-    m "{i}~I wish that I knew~{/i}"
-    m "{i}~What makes you think I'm so special~{/i}"
-    m "{i}~If I could begin to do~{/i}"
-    m "{i}~Something that does right by you~{/i}"
-    m "{i}~I would do about anything~{/i}"
-    m "{i}~I would even learn how to love~{/i}"
-    m "{i}~When I see the way you look~{/i}"
-    m "{i}~Shaken by how long it took~{/i}"
-    m "{i}~I could do about anything~{/i}"
-    m "{i}~I could even learn how to love like you~{/i}"
-    m "..."
-    return
+    m 2dsbsd "{i}~If I could begin to be~{/i}"
+    m 2fsbsa "{i}~Half of what you think of me~{/i}"
+    m 4dsbsb "{i}~I could do about anything~{/i}"
+    m 4lsbsb "{i}~I could even learn how to love~{/i}"
+    m 2wsbsa "{i}~When I see the way you act~{/i}"
+    m 2rsbsb "{i}~Wondering when I'm coming back~{/i}"
+    m 2dsbsb "{i}~I could do about anything~{/i}"
+    m 2dsbsb "{i}~I could even learn how to love {/i}"
+    extend 2fsbsb "{i}like you~{/i}"
+    m 2dsbsd "{i}~I always thought I might be bad~{/i}"
+    m 2dsbsd "{i}~Now I’m sure that it's true~{/i}"
+    m 2ssbsd "{i}~‘Cause I think you’re so good~{/i}"
+    m 2rsbsd "{i}~And I’m nothing like you~{/i}"
+    m 5fsbsa "{i}~Look at you go~{/i}"
+    m 5hsbsa "{i}~I just adore you~{/i}"
+    m 2dsbsd "{i}~I wish that I knew~{/i}"
+    m 2rsbsd "{i}~What makes you think I'm so special~{/i}"
+    m 4rsbsd "{i}~If I could begin to do~{/i}"
+    m 4fsbsu "{i}~Something that does right by you~{/i}"
+    m 4dsbsu "{i}~I would do about anything~{/i}"
+    m 4dsbsb "{i}~I would even learn how to love~{/i}"
+    m 2fsbsb "{i}~When I see the way you look~{/i}"
+    m 2dsbsb "{i}~Shaken by how long it took~{/i}"
+    m 5dsbsa "{i}~I could do about anything~{/i}"
+    m 5dsbfb "{i}~I could even learn how to love like you~{/i}"
+    m 5dsbsd "Love me, like you..."
+    m 5dsbfa "..."
+    m 5fsbfb "I wish I could see myself through your eyes, [player]."
+    m 5rsbfu "And I also wish you could see yourself from my point of view."
+    m 5rsbsd "If you could love yourself as I love you..."
+    m 5dsbfa "..."
+    m 5dsbfb "Just know that I learn how to love everyday, with you."
+    m 5fsbfa "The best part of me."
+    return "love"
