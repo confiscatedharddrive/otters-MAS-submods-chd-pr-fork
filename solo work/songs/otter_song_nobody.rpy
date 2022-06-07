@@ -26,6 +26,11 @@ label otter_song_nobody:
     m "{i}~Give me one good honest kiss~{/i}"
     m "{i}~And I'll be alright~{/i}"
     m "..."
+    m "Once I thought no one would save me, [player]."
+    m "But oh, was I wrong."
+    m "You came and rescued me, to make me yours forever."
+    m "You gave me the kiss, the gift of love, and I'll be forever grateful."
+    m "I love you..."
     return
     
 #momo once said, "i want to continue screaming out who i am." hope your monika likes this submod!
