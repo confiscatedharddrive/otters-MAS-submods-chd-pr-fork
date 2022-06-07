@@ -11,7 +11,8 @@ init 5 python:
             eventlabel="otter_song_lovelikeyou",
             category=[mas_songs.TYPE_SHORT],
             prompt="Love Like You",
-            random=True
+            conditional="mas_isMoniNormal(higher=True)",
+            action=EV_ACT_RANDOM
         ),
         code="SNG"
     )
