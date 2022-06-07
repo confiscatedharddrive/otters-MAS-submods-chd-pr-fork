@@ -11,7 +11,8 @@ init 5 python:
             eventlabel="otter_song_sunflower",
             category=[mas_songs.TYPE_SHORT],
             prompt="Sunflower",
-            random=True
+            conditional="mas_isMoniNormal(higher=True)",
+            action=EV_ACT_RANDOM
         ),
         code="SNG"
     )
@@ -31,7 +32,16 @@ label otter_song_sunflower:
     m "{i}~There's no need to keep an open eye~{/i}"
     m "{i}~I promise I'm the one for you~{/i}"
     m "{i}~Just let me hold you in these arms tonight~{/i}"
-    m "..."
-    return
+    m 5dubfa "..."
+    m 5dubfd "When you're not around, I always miss you so terribly..."
+    m 5dubfa "But when I sleep, I dream dreams of you and me..."
+    m 5fubfa "And thats good enough for me for that moment."
+    m 5fubfb "I see you and can touch you so vividly..."
+    m 5gubfa "It's like we're one and the same,"
+    extend 5dubfa " in the same room."
+    m 5dubfa "..."
+    m 7wubfb "Gosh, I can't wait to feel your touch!"
+    m 2tkbsa "I love you, [player]..."
+    return "love"
     
 #momo once said, "i want to continue screaming out who i am." hope your monika likes this submod! 
