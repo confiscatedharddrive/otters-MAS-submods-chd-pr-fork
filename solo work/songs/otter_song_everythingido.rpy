@@ -11,6 +11,8 @@ init 5 python:
             eventlabel="otter_song_everythingido",
             category=[mas_songs.TYPE_SHORT],
             prompt="Everything I Do",
+            conditional="mas_isMoniNormal(higher=True)",
+            action=EV_ACT_RANDOM
         ),
         code="SNG"
     )
