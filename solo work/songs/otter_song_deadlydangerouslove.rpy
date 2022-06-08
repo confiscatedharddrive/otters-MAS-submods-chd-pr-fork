@@ -10,9 +10,9 @@ init 5 python:
             persistent._mas_songs_database,
             eventlabel="otter_song_deadlydangerouslove",
             category=[mas_songs.TYPE_SHORT],
-            conditional="mas_isMoniNormal(higher=True)",
             prompt="Deadly Dangerous Love",
-            action=EV_ACT_RANDOM
+            aff_range=(mas_aff.NORMAL, None),
+            random=True
         ),
         code="SNG"
     )
