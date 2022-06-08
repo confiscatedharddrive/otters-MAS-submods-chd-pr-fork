@@ -11,8 +11,8 @@ init 5 python:
             eventlabel="otter_song_nobody",
             category=[mas_songs.TYPE_SHORT],
             prompt="Nobody",
-            conditional="mas_isMoniNormal(higher=True)",
-            action=EV_ACT_RANDOM
+            aff_range=(mas_aff.NORMAL, None),
+            random=True
         ),
         code="SNG"
     )
