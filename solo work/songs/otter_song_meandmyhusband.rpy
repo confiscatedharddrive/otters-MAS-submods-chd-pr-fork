@@ -8,7 +8,7 @@ init 10 python:
   def _otterMod_checkConditionals_3():
     if persistent.gender == 'M' and mas_isMoniNormal(higher=True):
       mas_getEV("otter_song_meandmyhusband").random = True
-  store.mas_submod_utils.registerFunction("ch30_minute", _otterMod_checkConditionals)
+  store.mas_submod_utils.registerFunction("ch30_minute", _otterMod_checkConditionals_3)
 
 init 5 python:
     addEvent(
