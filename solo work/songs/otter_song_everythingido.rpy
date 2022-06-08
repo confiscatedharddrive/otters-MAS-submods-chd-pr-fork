@@ -19,7 +19,7 @@ init 5 python:
 
 label otter_song_everythingido:
     m 1fsbsa "{i}~Look into my eyes~{/i}"
-    m 1ksbsb "{i}~"You will see, what you mean to me~{/i}"
+    m 1ksbsb "{i}~You will see, what you mean to me~{/i}"
     m 1dsbsa "{i}~Search your heart, search your soul~{/i}"
     m 5fsbfa "{i}~When you find me there, you'll search no more~{/i}"
     m 5dsbfd "{i}~Don't tell me it's not worth trying for~{/i}"
