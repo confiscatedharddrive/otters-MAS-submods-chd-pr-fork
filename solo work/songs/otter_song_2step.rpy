@@ -4,15 +4,19 @@ init 5 python in mas_bookmarks_derand:
     # ensure things get bookmarked and derandomed as usual.
     label_prefix_map["otter_song_"] = label_prefix_map["monika_"]
 
+init 10 python:
+  def _otterMod_checkConditionals_2():
+    if persistent.gender == 'F' and mas_isMoniNormal(higher=True):
+      mas_getEV("otter_song_2step").random = True
+  store.mas_submod_utils.registerFunction("ch30_minute", _otterMod_checkConditionals)
+  
 init 5 python:
     addEvent(
         Event(
             persistent._mas_songs_database,
             eventlabel="otter_song_2step",
             category=[mas_songs.TYPE_SHORT],
-            conditional="persistent.gender == 'F' and mas_isMoniNormal(higher=True)",
             prompt="2 Step",
-            action=EV_ACT_RANDOM
         ),
         code="SNG"
     )
