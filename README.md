@@ -11,7 +11,7 @@
   
   
   * new compliments (10)
-  * songs (10)
+  * songs (20)
   * remasters (1)
 
 ## 🦦 my info
