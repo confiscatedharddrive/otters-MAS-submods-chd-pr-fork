@@ -11,8 +11,8 @@ init 5 python:
             eventlabel="otter_song_letsgetmarried",
             category=[mas_songs.TYPE_SHORT],
             prompt="Let's Get Married",
-            conditional="mas_isMoniNormal(higher=True)",
-            action=EV_ACT_RANDOM
+            aff_range=(mas_aff.NORMAL, None),
+            random=True
         ),
         code="SNG"
     )
