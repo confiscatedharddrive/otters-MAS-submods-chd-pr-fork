@@ -20,7 +20,7 @@ init 5 python:
 label otter_song_letsgetmarried:
     m 2dsd "{i}~I know it's hard enough to love me~{/i}"
     m 2dsb "{i}~But I woke up in a safe house singing, ~{/i}"
-    m 5fsbfa "'Honey, let's get married'"~{/i}"
+    m 5fsbfa "'Honey, let's get married'~{/i}"
     m 5dsbfd "{i}~Don’t wanna walk alone~{/i}"
     m 5dsbfb "{i}~So let’s get married~{/i}"
     m 5dsbfd "{i}~I don’t wanna walk alone~{/i}"
