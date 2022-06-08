@@ -43,7 +43,7 @@ label otter_song_lovelikeyou:
     m 2dsbsb "{i}~Shaken by how long it took~{/i}"
     m 5dsbsa "{i}~I could do about anything~{/i}"
     m 5dsbfb "{i}~I could even learn how to love like you~{/i}"
-    m 5dsbsd "Love me, like you..."
+    m 5dsbsd "{i}~Love me, like you...~{/i}"
     m 5dsbfa "..."
     m 5fsbfb "I wish I could see myself through your eyes, [player]."
     m 5rsbfu "And I also wish you could see yourself from my point of view."
