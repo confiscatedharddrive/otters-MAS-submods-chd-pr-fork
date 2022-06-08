@@ -9,10 +9,10 @@ init 5 python:
         Event(
             persistent._mas_songs_database,
             eventlabel="otter_song_callmeirresponsible",
-            conditional="mas_isMoniNormal(higher=True)",
             category=[mas_songs.TYPE_SHORT],
             prompt="Call Me Irresponsible",
-            action=EV_ACT_RANDOM
+            aff_range=(mas_aff.NORMAL, None),
+            random=True
         ),
         code="SNG"
     )
