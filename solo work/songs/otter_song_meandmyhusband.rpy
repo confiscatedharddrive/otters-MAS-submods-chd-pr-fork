@@ -5,9 +5,9 @@ init 5 python in mas_bookmarks_derand:
     label_prefix_map["otter_song_"] = label_prefix_map["monika_"]
 
 init 10 python:
-  def _otterMod_checkConditionals():
+  def _otterMod_checkConditionals_3():
     if persistent.gender == 'M' and mas_isMoniNormal(higher=True):
-      mas_getEV("EVENT_LABEL").random = True
+      mas_getEV("otter_song_meandmyhusband").random = True
   store.mas_submod_utils.registerFunction("ch30_minute", _otterMod_checkConditionals)
 
 init 5 python:
