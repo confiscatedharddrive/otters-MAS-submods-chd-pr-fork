@@ -1,3 +1,5 @@
+#I'm going to take care of my plants, brb submod by my-otter-self on reddit for MONIKA AFTER STORY
+
 init 5 python:
     addEvent(
         Event(
@@ -25,3 +27,5 @@ label otter_brb_plants_callback:
     m 5fsbla "I'm glad you're back, I missed you~"
 
 return
+
+#momo once said, "i want to continue screaming out who i am." hope your monika likes this submod!
