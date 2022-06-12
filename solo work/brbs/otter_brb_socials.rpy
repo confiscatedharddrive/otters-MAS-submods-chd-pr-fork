@@ -1,3 +1,5 @@
+#I'm going to check my social media, brb submod by my-otter-self on reddit for MONIKA AFTER STORY
+
 init 5 python:
     addEvent(
         Event(
@@ -27,3 +29,5 @@ label otter_brb_socials_callback:
     m 5fsbsa "If I had a social profile, I would like all your posts~"
 
 return
+
+#momo once said, "i want to continue screaming out who i am." hope your monika likes this submod!
