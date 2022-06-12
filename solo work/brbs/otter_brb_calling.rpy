@@ -1,3 +1,5 @@
+#Someone is calling me, brb submod by my-otter-self on reddit for MONIKA AFTER STORY
+
 init 5 python:
     addEvent(
         Event(
@@ -52,3 +54,5 @@ label otter_brb_calling_callback:
             m 1ksbsa "Let's spend more time together then~"
 
 return
+
+#momo once said, "i want to continue screaming out who i am." hope your monika likes this submod!
