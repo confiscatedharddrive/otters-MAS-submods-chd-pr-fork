@@ -1,3 +1,5 @@
+#I'm going to lie down, brb submod by my-otter-self on reddit for MONIKA AFTER STORY
+
 init 5 python:
     addEvent(
         Event(
@@ -65,3 +67,5 @@ label otter_brb_liedown_callback:
         m 2kua "Let's spend more time together, [mas_get_player_nickname()]~"
 
 return
+
+#momo once said, "i want to continue screaming out who i am." hope your monika likes this submod!
