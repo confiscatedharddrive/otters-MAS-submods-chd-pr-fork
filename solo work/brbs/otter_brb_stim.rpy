@@ -1,3 +1,5 @@
+#I need to stim, brb submod by my-otter-self on reddit for MONIKA AFTER STORY
+
 init 5 python:
     addEvent(
         Event(
@@ -84,3 +86,5 @@ label otter_brb_stim_callback:
         m 2ksu "Let me know if you need to stim again, okay?"
 
     return
+
+#momo once said, "i want to continue screaming out who i am." hope your monika likes this submod!
