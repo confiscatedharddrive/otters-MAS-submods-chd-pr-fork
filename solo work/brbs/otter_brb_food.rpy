@@ -1,3 +1,5 @@
+#I'm going to get some food, brb submod by my-otter-self on reddit for MONIKA AFTER STORY
+
 init 5 python:
     addEvent(
         Event(
@@ -41,3 +43,5 @@ label otter_brb_food_callback:
             m 1rubla "Okay, ehehe~"
             m 4eublb "I'm glad to see you taking care of yourself, [player]!"
 return
+
+#momo once said, "i want to continue screaming out who i am." hope your monika likes this submod!
