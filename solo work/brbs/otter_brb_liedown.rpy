@@ -9,9 +9,9 @@ init 5 python:
             prompt="I'm going to lie down",
             pool=True,
             unlocked=True,
-            ),
-            markSeen=True
-          )
+        ),
+        markSeen=True
+    )
 
 label otter_brb_liedown:
     m 1wuo "You're gonna rest for a bit, [player]?"
@@ -47,18 +47,18 @@ $ mas_idle_mailbox.send_idle_cb("otter_brb_liedown_callback")
 return "idle"
 
 label otter_brb_liedown_callback:
-    if mas_brbs.was_idle_for_at_least(datetime.timedelta(minutes=60), "otter_brb_liedown_idle"):
-        m 4wub "Welcome back, [player]!"
-        m 4wua "I hope you feel rested now!"
-        m 2kua "Let's spend more time together~"
-
-    elif mas_brbs.was_idle_for_at_least(datetime.timedelta(minutes=300), "otter_brb_liedown_idle"):
+    if mas_brbs.was_idle_for_at_least(datetime.timedelta(minutes=300), "otter_brb_liedown"):
         m 2rkd "You were gone for a long time, [player]..."
         m 7rksdla "Did you accidentally fall asleep?"
         m 2hksdlb "Ahahaha~"
         m 2fka "It's no problem, [mas_get_player_nickname()]."
         m 7hsa "I'm just glad you had a good time resting!"
         m 2kua "Let's spend more time together now that you're back~"
+
+    elif mas_brbs.was_idle_for_at_least(datetime.timedelta(minutes=60), "otter_brb_liedown"):
+        m 4wub "Welcome back, [player]!"
+        m 4wua "I hope you feel rested now!"
+        m 2kua "Let's spend more time together~"
 
     else:
         m 4wub "That was quick, [player]!"
@@ -69,3 +69,5 @@ label otter_brb_liedown_callback:
 return
 
 #momo once said, "i want to continue screaming out who i am." hope your monika likes this submod!
+#be sure to call back to original command; game counts time from when selected
+#order from longest to shortest time so game can more accurately go through the options

@@ -22,12 +22,7 @@ $ mas_idle_mailbox.send_idle_cb("otter_brb_calling_callback")
 return "idle"
 
 label otter_brb_calling_callback:
-        if mas_brbs.was_idle_for_at_least(datetime.timedelta(minutes=60), "otter_brb_liedown_idle"):
-            m 1hsb "Yay! You're back!"
-            m 1gsbsa "I missed you..."
-            m 1ksbsa "Let's spend more time together~"
-
-        elif mas_brbs.was_idle_for_at_least(datetime.timedelta(minutes=300), "otter_brb_liedown_idle"):
+        if mas_brbs.was_idle_for_at_least(datetime.timedelta(minutes=300), "otter_brb_calling"):
             m 1wuo "Oh! You were gone for a long time, [player]."
             m 1wuc "What happened?{nw}"
             $ _history_list.pop()
@@ -48,6 +43,11 @@ label otter_brb_calling_callback:
             m 1gsbsa "I just missed you, that's all!"
             m 1hsbsb "Ehehehe~"
             m 1ksbsa "Let's continue spending time together then~"
+        
+        elif mas_brbs.was_idle_for_at_least(datetime.timedelta(minutes=60), "otter_brb_calling"):
+            m 1hsb "Yay! You're back!"
+            m 1gsbsa "I missed you..."
+            m 1ksbsa "Let's spend more time together~"
 
         else:
             m 1hsbsb "Yay! Back already?"

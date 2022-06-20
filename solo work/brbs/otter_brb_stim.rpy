@@ -41,16 +41,16 @@ label otter_brb_stimming:
     return "idle"
 
 label otter_brb_stim_callback:
-    if mas_brbs.was_idle_for_at_least(datetime.timedelta(minutes=60), "otter_brb_stim_idle"):
-        m 7hua "Welcome back, [player]!"
-        m 7hub "I hope it was a good one~"
-        m 2ksu "Let's spend more time together!"
-
-    elif mas_brbs.was_idle_for_at_least(datetime.timedelta(minutes=300), "otter_brb_stim_idle"):
+    if mas_brbs.was_idle_for_at_least(datetime.timedelta(minutes=300), "otter_brb_stim"):
         m 1wuo "That was a long time, [player]!"
         m 7tka "Did you get distracted while stimming?"
         m 2hkb "Ehehehe~"
         m 2lkb "It's okay, [mas_get_player_nickname()]."
+        m 2ksu "Let's spend more time together!"
+    
+    elif mas_brbs.was_idle_for_at_least(datetime.timedelta(minutes=60), "otter_brb_stim"):
+        m 7hua "Welcome back, [player]!"
+        m 7hub "I hope it was a good one~"
         m 2ksu "Let's spend more time together!"
 
     else:

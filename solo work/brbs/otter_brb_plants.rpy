@@ -10,8 +10,8 @@ init 5 python:
             pool=True,
             unlocked=True,
         ),
-    markSeen=True
- )
+        markSeen=True
+    )
 
 label otter_brb_plants:
     m 1hua "Awww!"
